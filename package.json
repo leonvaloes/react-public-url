@@ -1,0 +1,29 @@
+{
+    "name": "react-public-url",
+    "version": "1.0.2",
+    "description": "A CLI tool to create a public URL using ngrok",
+    "main": "src/index.mjs",
+    "type": "module",
+    "scripts": {
+        "start": "node src/index.mjs"
+    },
+    "files": [
+        "src/"
+    ],
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "ngrok": "^5.0.0-beta.2",
+        "qrcode": "^1.5.4",
+        "inquirer": "^9.1.4"
+    },
+    "bin": {
+        "react-public-url": "./src/index.mjs"
+    },
+    "keywords": [
+        "ngrok",
+        "qr-code",
+        "cli"
+    ],
+    "author": "Leonardo Valões Novaes Ribeiro",
+    "license": "MIT"
+}
