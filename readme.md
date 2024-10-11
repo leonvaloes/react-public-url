@@ -35,7 +35,9 @@ npm install -g react-public-url
 
 3. In package.json, add the following to scripts:
 
-```"react-public-url" : "react-public-url" ```
+   ```
+   "react-public-url" : "react-public-url"
+   ```
 
 ## Usage
 
