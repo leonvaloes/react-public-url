@@ -33,6 +33,10 @@ npm install -g react-public-url
 
 2. If you don't have an ngrok auth token, you can sign up for one at [ngrok](https://ngrok.com/).
 
+3. In package.json, add the following to scripts:
+
+```"react-public-url" : "react-public-url" ```
+
 ## Usage
 
 1. Start your local application on any port, for example:
